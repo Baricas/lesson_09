@@ -1,0 +1,63 @@
+.longwinded {
+  position: relative;
+  width: 100%;
+  min-height: 650px;
+  background-color: #f4f4f4;
+}
+.longwinded .tablet {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #474e5d;
+  width: 17.7%;
+  border-radius: 4% 0 0 0;
+  height: 76.8%;
+}
+.longwinded .tablet .cam {
+  position: absolute;
+  left: 59.2%;
+  top: 4.9%;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #a5a4a4;
+}
+.longwinded .tablet:before {
+  position: absolute;
+  content: '';
+  display: block;
+  bottom: 0;
+  right: 0;
+  background-color: #fee9a3;
+  width: 92.5%;
+  height: 89.5%;
+}
+.longwinded h2 {
+  color: #545454;
+  margin: 15.1% 0 3.2% .3%;
+  font-size: 40px;
+  font-weight: 100;
+  letter-spacing: 2.2px;
+}
+.longwinded p:first-of-type {
+  width: 59%;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1.4px;
+  line-height: 25px;
+  color: #8f8f8f;
+  margin-bottom: 2.4%;
+  text-shadow: 0 0 0.1px rgba(0, 0, 0, 0.46);
+}
+.longwinded p:last-of-type {
+  width: 57%;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1.4px;
+  line-height: 25px;
+  color: #8f8f8f;
+  border-left: 5px solid #4eacdd;
+  font-style: italic;
+  padding-left: 2%;
+  text-shadow: 0 0 0.1px rgba(0, 0, 0, 0.46);
+}
